@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+    font-size: x-large;
+    position: static;
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(-45deg, hsl(319, 86%, 73%) 50%, white 50%);
+    /*background: url(../img/fondo3.gif) no-repeat;
+    background-size: 1000% 1000% ;*/
+
+    margin: 8px;
+}
+.logo{
+    text-align: right;
+    width:190px;
+}
+.menu1{
+    list-style: none;
+    padding:0;
+    background:transparent;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: x-large;
+    position: static;
+    
+}
+.menu1 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    display: block;
+}
+.menu1 li {
+    display: inline-block;
+    text-align: left;
+}
+.menu1 li a :hover{
+    background:#e737af;
+    padding: 8px;
+}
+table tr td a img{
+    border: 4px solid black;
+    width:250px;
+    height:250px;
+    display: inline-block;
+    text-align: center;
+    padding:0;
+}
+table tr td a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu3 li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 20px;
+    display: block;
+}
+.menu3 li {
+    display: inline-block;
+    text-align: center;
+}
+.menu3 li a :hover{
+    background:#d6d1d4;
+    padding: 10px;
+}
+  button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 30;
+    color: black;
+    font-size: 50px;
+    transition: .3 ease all;
+    text-align: left;
+}
+.btn:hover{
+background: burlywood;
+color: #000;
+box-shadow: 3px 3px 50px chocolate;
+}
+.coupon {
+  border: 5px dotted #bbb; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+div.galeria{
+  margin: 10px 20px;
+  box-shadow: 0 4px 10px 0 lightblue,0 6px 20px rgba(0, 0, 0, 0.19);
+  float:left ;
+  width: 290px;
+}
+div.galeria img{
+  width: 100%;
+  height: 260px;
+}
+/* div.galeria:hover{
+  border: 1px solid red;
+} */
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(248, 116, 248);
+  padding: 10px;
+}
